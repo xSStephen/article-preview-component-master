@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  font-family: "Manrope", sans-serif;
+  background-color: hsl(210, 46%, 95%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0 auto;
+  font-size: 13px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  max-width: 375px;
+  background-color: white;
+  margin: 2rem;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.image > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.information {
+  margin: 2rem;
+}
+
+.information > h3 {
+  color: hsl(217, 19%, 35%);
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.information > p {
+  color: hsl(214, 17%, 51%);
+  padding: 1rem 0 1rem 0;
+}
+
+.personal_information {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.personal_information > img {
+  margin-left: 2rem;
+}
+
+.person {
+  display: flex;
+}
+
+.person > img {
+  width: 2.8rem;
+  border-radius: 50px;
+}
+
+.person-info {
+  width: 12rem;
+  margin-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.person-info > h4 {
+  font-size: 0.88rem;
+  color: hsl(217, 19%, 35%);
+  margin-bottom: 0.1rem;
+}
+
+.person-info > p {
+  color: hsl(214, 17%, 51%);
+}
