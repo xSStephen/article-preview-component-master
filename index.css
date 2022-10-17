@@ -115,12 +115,22 @@ main {
 .icon-share {
   position: absolute;
   right: 3rem;
-  bottom: 2.2rem;
+  bottom: 2.7rem;
 }
 
 @media (min-width: 768px) {
   .container {
     grid-template-columns: 1fr 1fr;
     max-width: 50rem;
+  }
+
+  .icon-share {
+    bottom: 2.8rem;
+  }
+}
+
+@media (min-width: 860px) {
+  .icon-share {
+    bottom: 3.5rem;
   }
 }
